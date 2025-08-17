@@ -1,0 +1,165 @@
+.d1{
+    text-align: center;
+    font: bold 2em Arial, sans-serif;
+    color: rgb(130, 78, 15);
+    padding: 3px;
+    font-size: 3em;
+}
+.d2{
+    text-align: center;
+    font: bold 1.5em Arial, sans-serif;
+    color: rgb(82, 81, 79);
+    padding: 3px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(247, 247, 230);
+}
+.navbar ul  {
+    list-style-type: none;
+    padding:0;
+    width: 100;
+    overflow: hidden;
+    color: rgb(53, 32, 4);;
+}
+.navbar ul li {
+      float: left;
+}
+.navbar ul li a{
+      display: block;
+      font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px 56px;
+    color: rgb(53, 32, 4);
+}
+.navbar ul li a:hover{
+    color:blue;
+}
+.notes{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.notes h3{
+    font-size: 1.5em;
+    color: rgb(53, 32, 4);
+}
+.notes ul {
+    list-style-type: none;
+    padding: 0;
+}
+.notes ul li {
+    margin: 10px 0;
+}
+.notes ul li p {
+    font:  Arial, sans-serif;
+    color: rgb(53, 32, 4);
+    font-size: 1.2em;
+}   
+.notes button {
+    background-color: rgb(109, 79, 39);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 50px;
+}
+.notes button:hover {
+    background-color: rgb(82, 81, 79);
+}
+.Buyandsell {
+   margin-left: 100px;
+    margin-top: 30px;
+}
+.Buyandsell h3{
+    font-size: 1.5em;
+    color: rgb(53, 32, 4);
+    margin-bottom: 20px;
+}
+.Buyandsell ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.Buyandsell ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+.Buyandsell ul li a {
+    text-decoration: none;
+    font: optional;
+    color: rgb(53, 32, 4);
+    font-size: 1.2em;
+}
+.Buyandsell ul li a p:hover {
+    color: rgba(135, 57, 29, 0.61);
+}
+.peer {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.peer h3{
+    font-size: 1.5em;
+    color: rgb(53, 32, 4);
+    margin-bottom: 20px;
+}
+.peer p{
+    font:  Arial, sans-serif;
+    color: rgb(53, 32, 4);
+    font-size: 1.2em;
+}
+.ask{
+    width: 95%;
+    padding: 20px;
+    background-color: rgb(247, 247, 230);
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(36, 36, 36);
+    
+}
+.ask button{
+    background-color:  #4a240b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 12px;
+}
+.help {
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+.help ul{
+    list-style-type: none;
+    padding: 0;
+}
+.help ul li {
+    margin: 10px 0;
+}
+.help ul li a {
+    text-decoration: none;
+    font: optional;
+    color: rgb(53, 32, 4);
+}
+footer{
+    height:12vh ;
+    background-color:black;
+    color: white;
+    font-family: 'Varela Round','sans-serif';
+    margin-top: 10px;
+}
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

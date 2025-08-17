@@ -1,0 +1,40 @@
+.container h2{
+   text-align: center;
+    font: bold 2em Arial, sans-serif;
+    color: rgb(130, 78, 15);
+    font-size:3em ;
+}
+.container p{
+    text-align: center;
+    font: bold 1.5em Arial, sans-serif;
+    color: rgb(82, 81, 79);
+    padding: 10px;
+}
+.form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(247, 247, 230);
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(36, 36, 36);
+}
+.ab{
+    color: rgb(40, 39, 38);
+     font: Arial, sans-serif;
+}
+button{
+  background-color:  #4a240b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(141, 121, 95);
+}
